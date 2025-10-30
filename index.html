@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"defer></script>
+  <title>OSONDU'S SERVICES</title>
+  <meta name="description" content="Seasonal, chef-crafted menus, flawless service, and unforgettable events." />
+</head>
+<body>
+  <header>
+    <div class="nav">
+      <div class="logo">Osondu's Services</div>
+      <nav aria-label="Main">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Menu & Services</a></li>
+          <li><a href="#image">image</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#booking">Booking</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="hero" aria-label="Hero">
+    <div class="hero-content container">
+      <h1>WELCOME TO MY WEBSITE</h1>
+      <p><i> I am reliable and trustworth</i></p>
+      <div class="cta">
+        <a class="btn primary" href="#booking">Book a Tasting</a>
+        <a class="btn" href="#services">Get a Quote</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" aria-label="Menu & Services">
+    <div class="container">
+      <h2 style="font-family: 'Playfair Display', serif;font-size:2rem;margin-bottom:8px" class="ser">Services & Sample Menus</h2>
+      <p style="color: black">An electrical installation service will typically provide a range of services, including:</p>
+      <div class="grid cards" style="margin-top:16px">
+        <div class="card">
+          <strong> System Design</strong>
+          <p>Creating electrical plans and layouts for new or existing buildings, considering factors like furniture placement, desired lighting, and the need for additional outlets. </p>
+        </div>
+        <div class="card">
+          <strong> Equipment installion</strong>
+          <p>Installing new electrical equipment, such as circuit breakers, panels, lighting fixtures, and power outlets. </p>
+        </div>
+        <div class="card">
+          <strong>Repair & maintenance</strong>
+          <p>Interactive stations and themed experiences tailored to your vibe.</p>
+        </div>
+      </div>
+
+      <h3 style="margin-bottom:8px;font-family:'Playfair Display', serif"></h3>
+      <div class="grid cards" style="grid-template-columns:repeat(auto-fill,minmax(260px,1fr));margin-top:8px">
+        <div class="card">
+          <strong>Inspections & Testing</strong>
+          <p>Verifying that electrical installations comply with safety regulations and codes through various inspection and testing procedures. </p>
+        </div>
+        <div class="card">
+          <strong>Wiring & Cabling:</strong>
+          <p>The physical installation of electrical wiring throughout a building to power lights, appliances, and other electrical devices. </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="image" aria-label="IMAGE">
+    <div class="container">
+      <h2 style="font-family:'Playfair Display', serif;font-size:2rem;margin-bottom:8px" class="gal">IMAGES</h2>
+      <p style="color: black">A electrical home appliances.</p>
+      <div class="image" aria-label="Gallery grid">
+        <img src="image/e1.jpg" alt="" />
+        <img src="image/e2.jpg" alt="" />
+        <img src="image/e3.jpg" alt="" />
+        <img src="image/e4.jpg" alt="" />
+        <img src="image/e5.jpg" alt="" />
+        <img src="image/e6.jpg" alt="" />
+        <img src="image/e7.jpg" alt="" />
+      </div>
+    </div>
+  </section>
+
+  <section id="about" aria-label="About Us">
+    <div class="container">
+      <h2 style="font-family:'Playfair Display', serif;font-size:2rem;margin-bottom:8px" class="abo">About Us</h2>
+      <p>Founded in 1991, Osondu's Services crafts bespoke menus using local electrical installation. Our team blends culinary finesse with seamless event service to create memorable experiences.</p>
+    </div>
+  </section>
+
+  <section id="booking" aria-label="Booking & Contact">
+    <div class="container">
+      <h2 style="font-family:'Playfair Display', serif;font-size:2rem;margin-bottom:8px">Book a Tasting / Get a Quote</h2>
+     
+      <form style="display:grid;gap:12px;max-width:700px">
+        <input type="text" name="name" placeholder="Your name" required style="padding:12px;border:1px solid #ddd;border-radius:6px">
+        <input type="email" name="_replyto" placeholder="Email" required style="padding:12px;border:1px solid #ddd;border-radius:6px">
+        <input type="tel" name="phone" placeholder="Phone" style="padding:12px;border:1px solid #ddd;border-radius:6px">
+        <select name="service" required style="padding:12px;border:1px solid #ddd;border-radius:6px">
+          <option value="">Select service</option>
+          <option>Wiring & Cabling</option>
+          <option>Inspections & Testing</option>
+          <option>Equipment installion</option>
+          <option>System Design</option> 
+           <option>Repair & maintenance</option>
+        </select>
+        <input type="date" name="date" required style="padding:12px;border:1px solid #ddd;border-radius:6px">
+        <input type="number" name="guests" placeholder="Guest count" required style="padding:12px;border:1px solid #ddd;border-radius:6px">
+        <textarea name="message" placeholder="Tell us about your event..." rows="4" style="padding:12px;border:1px solid #ddd;border-radius:6px"></textarea>
+        <label style="font-size:12px; color:var(--muted)"><input type="checkbox" required> I agree to be contacted about this request.</label>
+        <button class="btn primary" type="submit"><a href="https://wa.me/2347039431981?text=Hello%20Osondu's%20Services,%20I%20am%20interested%20in%20your%20services." target="-blank" class="btn primary">Submit</a></button>
+            
+  Chat on WhatsApp
+</a>
+      </form>
+    </div>
+  </section>
+
+  <footer aria-label="Footer">
+    <div class="cols container">
+      <div>
+        <strong>Osondu's Services</strong><br/>
+       <i class="fas fa-location">32 Ibadan street Aba, Abia State Nigeria</i><br/>
+        +234 8106824499<br/>
+        ihemeosondupaul@gmail.com
+      </div>
+      
+    </div>
+  </footer>
+  
+</body>
+</html>
